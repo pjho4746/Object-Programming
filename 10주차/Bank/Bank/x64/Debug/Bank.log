@@ -1,0 +1,20 @@
+﻿  BonusPointAccount.cpp
+C:\객체\10주차\Bank\Bank\BonusPointAccount.cpp(4,66): error C2086: 'int b': 재정의
+C:\객체\10주차\Bank\Bank\BonusPointAccount.cpp(4): message : 'b' 선언을 참조하십시오.
+C:\객체\10주차\Bank\Bank\BonusPointAccount.cpp(4,69): error C2511: 'BonusPointAccount::BonusPointAccount(std::string,int,int)': 오버로드된 멤버 함수가 'BonusPointAccount'에 없습니다.
+C:\객체\10주차\Bank\Bank\BonusPointAccount.h(11): message : 'BonusPointAccount' 선언을 참조하십시오.
+C:\객체\10주차\Bank\Bank\BonusPointAccount.cpp(5,1): error C2550: 'BonusPointAccount::{ctor}': 생성자 이니셜라이저 목록은 생성자 정의에만 사용할 수 있습니다.
+C:\객체\10주차\Bank\Bank\BonusPointAccount.cpp(6,2): error C2597: 비정적 멤버 'BonusPointAccount::bonusPoint'에 대한 참조가 잘못되었습니다.
+C:\객체\10주차\Bank\Bank\BonusPointAccount.h(13): message : 'BonusPointAccount::bonusPoint' 선언을 참조하십시오.
+C:\객체\10주차\Bank\Bank\BonusPointAccount.cpp(11,23): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CheckingTrafficCardAccount.cpp
+C:\객체\10주차\Bank\Bank\CheckingTrafficCardAccount.h(12,74): error C2504: 'CheckingAccount': 기본 클래스를 정의하지 않았습니다.
+C:\객체\10주차\Bank\Bank\CheckingTrafficCardAccount.cpp(4,21): error C2614: 'CheckingTrafficCardAccount': 멤버 초기화가 잘못되었습니다. 'CheckingAccount'이(가) 기본 또는 멤버가 아닙니다.
+C:\객체\10주차\Bank\Bank\CheckingTrafficCardAccount.cpp(9,12): error C2039: 'cardNo': 'CheckingTrafficCardAccount'의 멤버가 아닙니다.
+C:\객체\10주차\Bank\Bank\CheckingTrafficCardAccount.h(12): message : 'CheckingTrafficCardAccount' 선언을 참조하십시오.
+  CreditLineAccount.cpp
+  main.cpp
+  String.cpp
+C:\객체\10주차\Bank\Bank\String.cpp(19,24): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+C:\객체\10주차\Bank\Bank\String.cpp(52): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
